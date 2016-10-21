@@ -1,0 +1,23 @@
+.green-box, .blue-box{
+	width: 400px;
+	height: 200px;
+}
+.grey-box, .black-box, .yellow-box{
+	width: 266px;
+	height: 300px;
+}
+.green-box{
+	background-color:green;
+}
+.blue-box{
+	background-color:blue;
+}
+.grey-box{
+	background-color:grey;
+}
+.black-box{
+	background-color:black;
+}
+.yellow-box{
+	background-color:yellow;
+}
