@@ -1,3 +1,7 @@
+html {
+	background: url("../images/outerspace_landscape.jpeg") no-repeat center center fixed;
+	background-size: cover; 
+}
 nav {
 	background-color:grey;
 	padding-left:60px;
@@ -5,7 +9,7 @@ nav {
 	position: fixed;
 	width:100%;
 }
-img {
+.grey-cat {
 	border: 1px solid black;
 	border-radius: 80px;
 	width: 50px;
@@ -27,9 +31,24 @@ main{
 	padding-top: 200px;
 }
 .green-box{
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	border: 10px dotted green;
 	height: 300px;
 	width: 600px;
+}
+.space-cat{
+	position: absolute;
+	bottom: 350px;
+	left: 300px;
+	height: 200px;
+	width: 200px;
+}
+.space-dog{
+	position: absolute;
+	bottom: 100px;
+	right: 300px;
+	height: 200px;
+	width: 200px;
 }
