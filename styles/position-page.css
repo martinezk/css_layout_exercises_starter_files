@@ -1,10 +1,25 @@
 nav {
-	padding-left: 60px;
+	background-color:grey;
+	padding-left:60px;
 	padding-right: 60px;
 	position: fixed;
-	height: 50px;
-	width: 100%;	
+	width:100%;
+}
+img {
+	border: 1px solid black;
+	border-radius: 80px;
+	width: 50px;
+	position: absolute;
+}
+ul {
+	list-style-type:none;	
 }
 li {
-	display: inline-block;
+	display: inline;
+	border-right: 1px solid black;
+	padding-right: 5px;
+}
+
+li:first-child{
+	padding-left: 60px;
 }
